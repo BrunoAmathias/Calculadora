@@ -14,9 +14,7 @@ function back(){
 
 function calcular (){
     let resultado =  document.getElementById("resultado").innerHTML
-    if(resultado){
+    
         document.getElementById("resultado").innerHTML = eval(resultado)
-    } else{
-        alert("insira algum número")
-    }
+    
 }
